@@ -1,0 +1,20 @@
+{
+  "name": "db-fixture-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --legacy-watch --watch \"fixtures/**/*\" --watch ./src/index.js --delay 5 ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "globby": "^14.0.2",
+    "mongodb": "^6.12.0",
+    "node-mongodb-fixtures": "^3.2.9",
+    "nodemon": "^3.1.9"
+  }
+}
