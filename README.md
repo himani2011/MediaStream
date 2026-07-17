@@ -44,6 +44,8 @@ MediaStream follows a microservices architecture where each business capability 
 * JavaScript
 * Express.js
 
+---
+
 ### Messaging & Communication
 
 #### Synchronous Communication
